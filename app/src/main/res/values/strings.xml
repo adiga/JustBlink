@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bike Lite</string>
+    <string name="start_button"><b>Start</b></string>
+    <string name="circle_blinker">Circle</string>
+    <string name="tap_msg">Tap</string>
+
+</resources>
