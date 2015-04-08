@@ -13,7 +13,7 @@ public class BlinkerActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blinker);
         Toast t = Toast.makeText(BlinkerActivity.this, R.string.tap_msg,
-                Toast.LENGTH_LONG);
+                Toast.LENGTH_SHORT);
         t.show();
     }
 

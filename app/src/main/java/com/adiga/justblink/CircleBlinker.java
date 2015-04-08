@@ -22,6 +22,12 @@ public class CircleBlinker extends ActionBarActivity {
         contentView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                ImageView iv1 = (ImageView) findViewById(R.id.imageView);
+                ImageView iv2 = (ImageView) findViewById(R.id.imageView2);
+                ImageView iv3 = (ImageView) findViewById(R.id.imageView3);
+                iv1.setVisibility(View.INVISIBLE);
+                iv2.setVisibility(View.INVISIBLE);
+                iv3.setVisibility(View.INVISIBLE);
                 if (blinkerType == 3) {
                     //setBlinkerSize((int)(size * 1.5));
                     handleTimer.removeCallbacks(threeBlinkers);

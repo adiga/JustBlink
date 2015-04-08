@@ -5,17 +5,19 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:keepScreenOn="true"
+    android:orientation="vertical"
     android:theme="@style/Widget.AppCompat.ActionButton"
     tools:context=".BlinkerActivity">
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center_horizontal|center"
-        android:background="@drawable/bikelite"
+        android:src="@drawable/bikelite"
         android:clickable="true"
-        android:onClick="startClick" />
+        android:onClick="startClick"
+        />
 
 
 </LinearLayout>
