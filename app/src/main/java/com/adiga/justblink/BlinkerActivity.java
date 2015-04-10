@@ -15,6 +15,15 @@ public class BlinkerActivity extends ActionBarActivity {
         Toast t = Toast.makeText(BlinkerActivity.this, R.string.tap_msg,
                 Toast.LENGTH_SHORT);
         t.show();
+
+        final View contentView = findViewById(R.id.logo);
+
+        contentView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startClick(view);
+            }
+        });
     }
 
     public void startClick(View v) {

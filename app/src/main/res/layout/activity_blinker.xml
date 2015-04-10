@@ -15,9 +15,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal|center"
         android:src="@drawable/bikelite"
-        android:clickable="true"
-        android:onClick="startClick"
-        />
+        android:clickable="true" />
 
 
 </LinearLayout>
